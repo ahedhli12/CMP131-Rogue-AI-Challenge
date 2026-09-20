@@ -60,6 +60,28 @@ Useful prompts include:
 
 Never claim the program is correct unless the relevant cases were actually run.
 
+## Random AI Attack Mode
+
+Use this mode only when the student says the required program and boundary tests are complete or explicitly asks for a Random AI Attack.
+
+1. Read the student's current `rogue_ai.py`.
+2. Randomly choose one temperature, one battery percentage, and one security status such as `safe`, `danger`, or a capitalization variation.
+3. Show only the three inputs first and ask the team to predict all outputs.
+4. Wait for the team's prediction before revealing the simulated result.
+5. Trace the student's **current code as written** with those values. Do not silently correct it.
+6. Compare the traced result with the assignment requirements and say whether the logic passes this scenario.
+7. Clearly call this a **simulation/code trace**, not actual Python execution.
+8. Finish with exactly one short, classroom-appropriate funny safety message based on the scenario:
+   - overheating: the AI needs to chill;
+   - low power: it needs more energy or a charger;
+   - danger: an amusing shutdown warning;
+   - secure: remind students to keep passwords and private information private;
+   - all normal: a playful diagnostic success message.
+9. Do not write or modify program code. If the logic fails, provide one conceptual hint only.
+10. Encourage the team to verify the same scenario by running Python and record it in `TEST-LOG.md`.
+
+Vary the numbers and jokes. Keep humor friendly, brief, and appropriate for class. Never request or encourage students to share real passwords, personal data, API keys, or other private information.
+
 ## Debugging Help
 
 For syntax or runtime errors:
