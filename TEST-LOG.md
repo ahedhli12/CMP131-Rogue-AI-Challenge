@@ -29,6 +29,18 @@ Ask the course AI assistant for one test at a time. Predict before running.
 | 2 |  |  |  |  |  |  |
 | 3 |  |  |  |  |  |  |
 
+## Random AI Attack
+
+- Random temperature:
+- Random battery:
+- Random security status:
+- Team prediction:
+- Copilot's simulated result:
+- Did the logic pass this scenario?
+- Funny safety message:
+- Python verification result (optional):
+- What we learned:
+
 ## Instructor Mystery Test
 
 - Temperature:
