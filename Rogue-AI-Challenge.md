@@ -85,7 +85,11 @@ The advice should connect programming decisions to responsible AI use:
 - **Secure:** the system may continue, but users should still protect private information and share only what is necessary.
 - **Normal temperature/power:** the system may continue operating while still being monitored.
 
-Copilot may make the scenario lightly funny, but the safety advice must remain clear and classroom appropriate. Copilot is simulating the test through code tracing; it is not actually executing Python.
+Copilot should make the scenario friendly, playful, and funny for beginning students. It may use one or two appropriate emojis and describe the AI as a harmless, funny character. It should use simple conversational language rather than a formal report, while keeping the safety advice clear and classroom appropriate.
+
+Example tone:
+
+> 🔥 Uh-oh! The AI is getting a little too hot—it may have been thinking too hard! Give it a break, reduce its workload, and let it cool down. The battery has enough power, and the system is secure, but remember: even a friendly AI does not need your passwords or private information! Copilot is simulating the test through code tracing; it is not actually executing Python.
 
 Record the random inputs, simulated results, and safety advice in `TEST-LOG.md`.
 
