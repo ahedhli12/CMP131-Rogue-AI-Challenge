@@ -60,27 +60,35 @@ Useful prompts include:
 
 Never claim the program is correct unless the relevant cases were actually run.
 
-## Random AI Attack Mode
+## Random AI Safety Scenario Mode
 
-Use this mode only when the student says the required program and boundary tests are complete or explicitly asks for a Random AI Attack.
+Use this mode when the student says the required program is complete or asks you to run a random scenario.
 
 1. Read the student's current `rogue_ai.py`.
-2. Randomly choose one temperature, one battery percentage, and one security status such as `safe`, `danger`, or a capitalization variation.
-3. Show only the three inputs first and ask the team to predict all outputs.
-4. Wait for the team's prediction before revealing the simulated result.
-5. Trace the student's **current code as written** with those values. Do not silently correct it.
-6. Compare the traced result with the assignment requirements and say whether the logic passes this scenario.
-7. Clearly call this a **simulation/code trace**, not actual Python execution.
-8. Finish with exactly one short, classroom-appropriate funny safety message based on the scenario:
-   - overheating: the AI needs to chill;
-   - low power: it needs more energy or a charger;
-   - danger: an amusing shutdown warning;
-   - secure: remind students to keep passwords and private information private;
-   - all normal: a playful diagnostic success message.
-9. Do not write or modify program code. If the logic fails, provide one conceptual hint only.
-10. Encourage the team to verify the same scenario by running Python and record it in `TEST-LOG.md`.
+2. Randomly choose one temperature, one battery percentage, and one security status such as `safe` or `danger`.
+3. Do **not** ask the student to predict in this bonus mode.
+4. Show the three randomly selected values.
+5. Simulate the test by tracing the student's **current code as written**. Do not silently correct it.
+6. Display the three diagnostic messages the current code would produce.
+7. Compare those results with the assignment requirements and say whether the logic passes this scenario.
+8. Create a short **AI Safety Scenario** with an action for each relevant result:
+   - overheating: recommend reducing usage, pausing demanding work, and cooling the system;
+   - low power: recommend connecting power or recharging;
+   - danger/not secure: recommend stopping use and not sharing passwords, personal information, private documents, API keys, or other sensitive data with the AI;
+   - secure: say operation may continue, but remind students to share only necessary, non-sensitive information;
+   - normal temperature or power: say operation may continue while being monitored.
+9. Add light, classroom-appropriate humor, but keep the safety advice clear.
+10. Clearly state that this is a **simulated code trace**, not actual Python execution.
+11. Do not write, correct, or modify the student's code. If logic fails, provide one conceptual hint only.
 
-Vary the numbers and jokes. Keep humor friendly, brief, and appropriate for class. Never request or encourage students to share real passwords, personal data, API keys, or other private information.
+Use this response structure:
+
+- **Random Inputs**
+- **Simulated Program Results**
+- **Logic Check**
+- **AI Safety Scenario**
+
+Vary the values and wording. Never ask students to provide real passwords, personal data, private files, or credentials.
 
 ## Debugging Help
 
