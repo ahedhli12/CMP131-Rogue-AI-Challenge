@@ -29,16 +29,17 @@ Ask the course AI assistant for one test at a time. Predict before running.
 | 2 |  |  |  |  |  |  |
 | 3 |  |  |  |  |  |  |
 
-## Random AI Attack
+## Random AI Safety Scenario
 
 - Random temperature:
 - Random battery:
 - Random security status:
-- Team prediction:
-- Copilot's simulated result:
+- Copilot's simulated program results:
 - Did the logic pass this scenario?
-- Funny safety message:
-- Python verification result (optional):
+- Temperature safety advice:
+- Power safety advice:
+- Privacy/security advice:
+- Funny scenario message:
 - What we learned:
 
 ## Instructor Mystery Test
